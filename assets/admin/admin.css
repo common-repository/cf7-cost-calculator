@@ -1,0 +1,82 @@
+#cf7cc-form-wrapper {
+	margin-bottom: 5px;
+}
+.white-popup {
+	position: relative;
+	background: #fff;
+	padding: 0px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+}
+.magnificPopup #adminmenuwrap {
+	z-index: 9;
+}
+.cf7cc-popup-heading {
+    background: #fcfcfc;
+    border-bottom: 1px solid #ddd;
+    height: 34px;
+    line-height: 31px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+.white-popup .mfp-close {
+	height: 35px;
+    line-height: 36px;
+}
+.white-popup .cf7cc-popup-content {
+	padding: 5px 10px;
+}
+
+.white-popup .cf7cc-popup-content table {
+	width: 100%;
+}
+.white-popup .cf7cc-popup-content table th {
+	width: 30%;
+}
+.white-popup .cf7cc-popup-content table th.field-options {
+    vertical-align: top;
+}
+.white-popup .cf7cc-popup-content table td {
+	width: 70%;
+}
+.white-popup .cf7cc-popup-content table td input[type="text"] {
+	width: 100%;
+}
+.white-popup .cf7cc-popup-content table th,
+.white-popup .cf7cc-popup-content table td {
+	padding: 5px 0;
+}
+.white-popup .cf7cc-popup-footer {
+    background-color: #fcfcfc;
+    border-top: 1px solid #dfdfdf;
+    padding: 10px;
+    text-align: right;
+}
+
+.cf7cc-repeater-row {
+	margin: 0 -5px
+}
+.cf7cc-repeater-row:before,
+.cf7cc-repeater-row:after {
+    display: table;
+    content: " ";
+}
+.cf7cc-repeater-row:after {
+    clear: both;
+}
+.cf7cc-repeater-col {
+	float: left;
+	width: 45%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.cf7cc-repeater-col-last {
+	width: 10%;
+}
+#cf7cc-popup-slider .cf7cc-repeater-col {
+	width: 50%;
+}
+#tag-generator-panel-formulas {
+	width: 100%;
+}
